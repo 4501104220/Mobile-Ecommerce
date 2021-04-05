@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -18,6 +19,8 @@ local.properties
 =======
 =======
 >>>>>>> e2d1834e3f1a2abdde407b9ce6f5e2207193b27f
+=======
+>>>>>>> 67e0d3c65261a36d96af98943c40d6d5757d1b66
 # Built application files
 *.apk
 *.aar
@@ -104,6 +107,9 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/main
 =======
 >>>>>>> e2d1834e3f1a2abdde407b9ce6f5e2207193b27f
+=======
+>>>>>>> 67e0d3c65261a36d96af98943c40d6d5757d1b66
