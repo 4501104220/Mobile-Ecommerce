@@ -27,7 +27,6 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
     }
 
 
-
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).
@@ -43,7 +42,6 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
         viewHolder.price.setText(android.get(i).getPrice());
         viewHolder.discountprice.setText(android.get(i).getPrice());
         Glide.with(context).load(android.get(i).getImage()).into(viewHolder.productimage);
-
 
     }
 
@@ -90,11 +88,8 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
                 @Override
                 public void onClick(View view) {
 
-
-
                 }
             });
-
         }
     }
 }

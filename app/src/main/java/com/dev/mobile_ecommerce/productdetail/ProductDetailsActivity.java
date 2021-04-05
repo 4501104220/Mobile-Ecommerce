@@ -33,7 +33,6 @@ import com.dev.mobile_ecommerce.womenselection.WomenMainActivity;
 
 import ru.nikartm.support.ImageBadgeView;
 
-
 public class ProductDetailsActivity extends AppCompatActivity {
     private int flag = 0;
     private static final String[] COUNTRIES = new String[]{"Men's Fashion",
@@ -223,7 +222,6 @@ public class ProductDetailsActivity extends AppCompatActivity {
                 finish();
             }
         });
-
 
 
         if (fragmnetname.equalsIgnoreCase("TShirtFragment")) {

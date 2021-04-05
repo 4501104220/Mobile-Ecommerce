@@ -22,11 +22,6 @@ import com.dev.mobile_ecommerce.R;
 import java.util.List;
 import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
-
-/**
- * Created by day on 07/04/19.
- */
-
 public class BaseActivity extends AppCompatActivity {
     int previously_selected_layout = 0;
     private ProgressDialog progressDialog;
@@ -40,12 +35,8 @@ public class BaseActivity extends AppCompatActivity {
         window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);*/
         String DEFAULT_MESSAGE = "Please wait...";
         progressDialog = new ProgressDialog(this, R.style.MyThemeDD);
-        //progressDialog.setMessage(DEFAULT_MESSAGE);
 
-        //hideSoftKeyboard();
     }
-
-
 
     public boolean isAppRunning(final Context context, final String packageName) {
         final ActivityManager activityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
@@ -70,7 +61,6 @@ public class BaseActivity extends AppCompatActivity {
             progressDialog.setCancelable(isCancelable);
             progressDialog.show();
         }
-
     }
 
     public void showProgress(String message) {
@@ -111,10 +101,8 @@ public class BaseActivity extends AppCompatActivity {
         boolean isPop = false;
         if (getSupportFragmentManager().getBackStackEntryCount() > 0) {
             isPop = true;
-            // getChildFragmentManager().executePendingTransactions();
             getSupportFragmentManager().popBackStack();
-            //  getChildFragmentManager().popBackStackImmediate();
-            //getChildFragmentManager().
+
         }
         return isPop;
     }
