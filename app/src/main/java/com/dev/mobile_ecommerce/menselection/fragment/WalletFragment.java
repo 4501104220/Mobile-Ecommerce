@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 
 import com.dev.mobile_ecommerce.R;
 import com.dev.mobile_ecommerce.utility.Data;
-import com.dev.mobile_ecommerce.dev.mobile_ecommerce.fragment.DataAdapter;
-import com.dev.mobile_ecommerce.dev.mobile_ecommerce.fragment.ShoesModel;
+import com.dev.mobile_ecommerce.womenselection.fragment.DataAdapter;
+import com.dev.mobile_ecommerce.womenselection.fragment.ShoesModel;
 
 import java.util.ArrayList;
 

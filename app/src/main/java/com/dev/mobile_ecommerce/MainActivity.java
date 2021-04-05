@@ -40,7 +40,7 @@ import com.dev.mobile_ecommerce.utility.BaseActivity;
 import com.dev.mobile_ecommerce.utility.CustomTypefaceSpan;
 import com.dev.mobile_ecommerce.utility.Data;
 import com.dev.mobile_ecommerce.wishlist.WishlistActivity;
-import com.dev.mobile_ecommerce.dev.mobile_ecommerce.WomenMainActivity;
+import com.dev.mobile_ecommerce.womenselection.WomenMainActivity;
 import com.woocommerse.OAuth1.services.HMACSha1SignatureService;
 import com.woocommerse.OAuth1.services.TimestampServiceImpl;
 

@@ -1,4 +1,4 @@
-package com.dev.mobile_ecommerce.dev.mobile_ecommerce;
+package com.dev.mobile_ecommerce.womenselection;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -29,15 +29,15 @@ import com.crystal.crystalrangeseekbar.interfaces.OnRangeSeekbarFinalValueListen
 import com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.tabs.TabLayout;
-import com.dev.mobile_ecommerce.MainActivity;
+
 import com.dev.mobile_ecommerce.R;
 import com.dev.mobile_ecommerce.cart.AddtoCartActivity;
 import com.dev.mobile_ecommerce.menselection.MenMainActivity;
 import com.dev.mobile_ecommerce.notification.NotificationActivity;
-import com.dev.mobile_ecommerce.dev.mobile_ecommerce.fragment.PalazzoFragment;
-import com.dev.mobile_ecommerce.dev.mobile_ecommerce.fragment.DressFragment;
-import com.dev.mobile_ecommerce.dev.mobile_ecommerce.fragment.TShirtFragment;
-import com.dev.mobile_ecommerce.dev.mobile_ecommerce.fragment.TosTunicsFragment;
+import com.dev.mobile_ecommerce.womenselection.fragment.PalazzoFragment;
+import com.dev.mobile_ecommerce.womenselection.fragment.DressFragment;
+import com.dev.mobile_ecommerce.womenselection.fragment.TShirtFragment;
+import com.dev.mobile_ecommerce.womenselection.fragment.TosTunicsFragment;
 
 import java.util.ArrayList;
 import java.util.List;

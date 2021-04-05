@@ -1,4 +1,4 @@
-package com.logzero.necommerce.dev.mobile_ecommerce;
+package com.dev.mobile_ecommerce.womenselection;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import com.logzero.necommerce.R;
+import com.dev.mobile_ecommerce.R;
 
 public class CustomAdapter extends PagerAdapter {
 

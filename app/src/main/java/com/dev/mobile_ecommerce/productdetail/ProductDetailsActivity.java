@@ -1,29 +1,20 @@
 package com.dev.mobile_ecommerce.productdetail;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
+
 import android.content.Intent;
-import android.content.res.Resources;
 import android.graphics.Paint;
-import android.graphics.Point;
-import android.graphics.Rect;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.DecelerateInterpolator;
 import android.view.inputmethod.EditorInfo;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,15 +22,13 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import com.bumptech.glide.Glide;
 import com.google.android.material.tabs.TabLayout;
 import com.dev.mobile_ecommerce.R;
-import com.dev.mobile_ecommerce.buynow.PaymentActivity;
 import com.dev.mobile_ecommerce.cart.AddtoCartActivity;
 import com.dev.mobile_ecommerce.checkout.CheckoutActivity;
 import com.dev.mobile_ecommerce.menselection.MenMainActivity;
 import com.dev.mobile_ecommerce.notification.NotificationActivity;
-import com.dev.mobile_ecommerce.womenselection.CustomAdapter;
+import com.dev.mobile_ecommerce.womenselection.CustomAdapter ;
 import com.dev.mobile_ecommerce.womenselection.WomenMainActivity;
 
 import ru.nikartm.support.ImageBadgeView;
